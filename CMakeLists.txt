@@ -1,5 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
-project(sampleCmake)
+project(sampleCmake LANGUAGES CXX)
+ 
+# C++ standard
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 set (Sample_VERSION_MAJOR 0)
 set (Sample_VERSION_MINOR 0)

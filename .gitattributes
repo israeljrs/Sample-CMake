@@ -1,0 +1,13 @@
+# Ensure GitHub Linguist classifies source as C++
+*.cpp linguist-language=C++
+*.cc  linguist-language=C++
+*.cxx linguist-language=C++
+*.hpp linguist-language=C++
+*.hh  linguist-language=C++
+*.hxx linguist-language=C++
+*.ipp linguist-language=C++
+*.tpp linguist-language=C++
+
+# Treat any C headers or C sources as C++ (optional safeguard)
+*.h   linguist-language=C++
+*.c   linguist-language=C++
